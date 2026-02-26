@@ -35,3 +35,6 @@ O algoritmo processa as entradas de texto para extrair a quantidade de dados e f
 ((Quantidade + (Quantidade * Faces)) / 2)
 
 Os resultados são exibidos em oito categorias distintas para permitir a comparação imediata entre diferentes cenários de combate e otimização de personagem.
+
+# Aviso de Segurança
+Devido à ausência de uma assinatura digital paga, o Windows SmartScreen pode exibir um alerta ao iniciar o aplicativo pela primeira vez. O software é seguro e de código aberto. Para prosseguir, clique em "Mais informações" e selecione "Executar assim mesmo".
