@@ -1,4 +1,4 @@
-# Calculadora de Dano Tormenta20
+# Calculadora de Dano Médio para Tormenta20
 Este projeto consiste em uma ferramenta de software desenvolvida em C# para auxiliar jogadores e mestres do sistema de RPG Tormenta20 no cálculo de dano médio. A aplicação automatiza as projeções de dano considerando variáveis complexas como margem de ameaça e multiplicadores de crítico.
 
 ## Funcionalidades Principais
@@ -8,15 +8,21 @@ Este projeto consiste em uma ferramenta de software desenvolvida em C# para auxi
 - Acúmulo de Ataques: Sistema de somatória para múltiplos ataques.
 - Interface Gráfica: Ambiente visual para entrada de dados e exibição de resultados em tempo real.
 
-## Requisitos de Sistema
-- SDK do .NET 6.0 ou superior.
-- Sistema Operacional Windows (para execução do framework Windows Forms).
+## Versões Disponíveis para Download
+Na seção de Releases, estão disponíveis dois formatos de executáveis:
 
-## Instruções de Execução
-Para executar a aplicação via terminal, utilize os seguintes comandos:
+1. Versão Independente (Self-Contained): Possui aproximadamente 120 MB. Esta versão inclui internamente todos os componentes necessários do .NET 9.0, permitindo a execução imediata em qualquer computador Windows sem a necessidade de instalações prévias.
+2. Versão Dependente (Framework-Dependent): Possui tamanho reduzido, na escala de KBs. Esta versão exige que o usuário tenha o .NET Desktop Runtime 9.0 instalado no sistema operacional para funcionar.
+
+## Requisitos do Sistema
+- SDK do .NET 9.0 ou superior para compilação.
+- Sistema Operacional Windows para execução do framework Windows Forms.
+
+## Instruções de Execução via Código
+Para executar a aplicação através do terminal, utilize os seguintes comandos:
 1. Navegue até o diretório raiz do projeto onde se encontra o arquivo .csproj.
 2. Execute o comando para compilar e iniciar a aplicação:
-```dotnet run```
+`dotnet run`
 
 ## Estrutura do Projeto
 O código está organizado seguindo as práticas recomendadas de separação de responsabilidades no ecossistema .NET:
